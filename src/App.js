@@ -14,7 +14,7 @@ function App() {
         mode: 'cors',
         header: {
             'Access-Control-Allow-Origin': '*',
-        }
+        },
         redirect: "follow",
         referrer: "no-referrer",
         body: null,
