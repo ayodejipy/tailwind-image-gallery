@@ -13,7 +13,7 @@ function App() {
         method: 'GET',
         mode: 'cors',
         header: {
-            'Access-Control-Allow-Origin': '*'
+            'Access-Control-Allow-Origin': '*',
         }
         redirect: "follow",
         referrer: "no-referrer",
