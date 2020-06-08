@@ -10,7 +10,7 @@ const ImageCards = ({ image }) => {
             <img src={image.webformatURL} alt="Johnson" className="w-full" />
             
             <div className="px-6 py-4">
-                <h2 className="font-bold text-purple-500 text-xl mb-3">
+                <h2 className="font-bold text-purple-600 text-xl mb-3">
                     {image.user}
                 </h2>
 
