@@ -19,7 +19,7 @@ function App() {
         .then(response => response.json())
         .then(data => {
           setImages(data.hits);
-          setIsLoading(false);x
+          setIsLoading(false);
         })
         .catch(error => console.log(error));
     },[term]);
